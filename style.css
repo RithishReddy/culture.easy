@@ -1,0 +1,836 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Text", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.header {
+    max-width: 1120px;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%
+}
+
+.header-section {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-section .fa-bars {
+
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    color: #5330c9
+}
+
+.menu-list {
+    display: none;
+}
+
+.element-section {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.element-section a {
+    display: none;
+    margin: auto 30px;
+    text-decoration: none;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+    color: #5330c9;
+
+
+}
+
+.element-section .get-started {
+    background-color: #e5e0f7;
+    padding: 6px;
+    width: 120px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.element-section .get-started-button {
+    width: 120px;
+}
+
+.element-section {
+    margin: auto 40px;
+}
+
+.space {
+    padding: 10px 0;
+}
+
+.section-one {
+    text-align: center;
+}
+
+.section-head-1 {
+
+    font-size: 22px;
+    margin: 8px 0px 16px;
+
+
+}
+
+
+.section-head-1 h1 {
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.section-head-1 .highlight,
+.highlighted2 {
+    background-color: #e5e0f7;
+}
+
+.hidden-1{
+    display: none;
+}
+
+
+.section-head-2 {
+    display: none;
+    margin-bottom: 40px;
+
+}
+
+
+
+.section-head-3 a {
+    display: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 17px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #5330c9;
+
+}
+
+
+.main-image {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+.image-one {
+    display: none;
+    max-width: 1120px;
+    height: auto;
+    width: 100%;
+
+}
+
+.image-two {
+
+    display: block;
+    width: 100%;
+}
+
+.image-two img {
+    width: 100%;
+}
+.talk{
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.talk a{
+    color: white;
+    padding: 15px 25px;
+    font-size: 17px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #5330c9;
+
+}
+
+
+
+.section-head-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-head-4 .description {
+    width: 676px;
+    margin-right: 10px;
+}
+
+.section-head-4 .description p {
+
+    font-family: "Frank Ruhl Libre", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-head-4 .des-2 {
+    display: none;
+}
+
+
+.details {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.det-image img {
+    width: 110px;
+    height: 110px;
+    border-radius: 999px;
+}
+
+.details-sub {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+
+}
+
+.details-name {
+    color: #5330c9;
+    font-style: normal;
+    font-family: "Red Hat Display", Sans-serif;
+    font-weight: 500;
+}
+
+.section-break {
+    margin: 30px 10px;
+}
+
+.section-break div {
+    padding: 50px;
+    border-top: 20px solid #E5E0F7;
+    transform: rotate(7deg);
+
+}
+
+
+
+.section-two-1 {
+    text-align: center;
+}
+
+.section-two-1 p {
+    text-align: center;
+    color: #5330c9;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+
+}
+
+
+.section-two-1 h1,
+.section-three-two h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+
+
+.section-two-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-two-image img {
+    width: 100%;
+    max-width: 1024px;
+
+
+}
+
+
+.section-two-3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.section-two-3 a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #5330c9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+
+
+
+}
+
+
+
+.section-three {
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section-three-one {
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #5330c9;
+    padding: 0 20px;
+
+}
+
+.features-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.features-list a {
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.features-list .child {
+
+    background-color: #5330c9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+
+
+
+}
+
+.section-three-three {
+    margin: 30px 0px;
+}
+
+.section-three {
+    background-color: whitesmoke;
+}
+
+.section-three-four {
+    width: 80%;
+
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.section-three-four .top {
+    padding: 30px 0;
+}
+
+.learn-more {
+    padding-top: 20px;
+}
+
+.learn-more-tag {
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: black;
+}
+
+.bottom-image {
+    width: 60%;
+    max-width: 1120px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.section-four {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px
+}
+
+.four-one h1 {
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.four-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.four-two-description {
+    text-align: start;
+}
+
+
+
+.four-two-description h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.four-two-description p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    margin-bottom: 10px;
+
+
+}
+
+.four-two-description p:last-of-type {
+    margin-bottom: 50px;
+}
+
+
+
+.four-two-image h3 {
+    padding: 20px;
+}
+
+.four-two-image img {
+    width: 80%;
+
+}
+
+.learn-more-button {
+    
+    background-color: #e5e0f7;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.learn-button{
+    margin: 30px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.signup-demo {
+
+    background-color: #5330c9;
+    position: relative;
+    top: 60px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    max-width: 1024px;
+}
+
+.signup-block {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-tag {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.signup-demo .context-description {
+    text-align: center;
+    padding-bottom: 20px;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+
+
+.signup,
+.demo {
+
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.signup {
+    background-color: white;
+    color: #5330c9;
+    margin-right: 10px;
+
+}
+
+.demo {
+    background-color: #E5E0F7;
+    color: white;
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+.footer {
+    background-image: url('https://culture.easy.xyz/wp-content/uploads/sites/6/2021/06/Background.png');
+}
+
+.foot-content {
+    padding: 10px;
+    color: #e5e0f7;
+    font-size: 20px;
+}
+
+.footer-space {
+    height: 70px;
+}
+
+
+.content-blocks {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.content-blocks p {
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+
+.blocks {
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 30px;
+
+
+}
+
+.blocks a {
+    text-decoration: none;
+    color: #8d8b97;
+    font-size: 16px;
+}
+
+
+.culture-logo-white {
+    margin-bottom: 20px;
+}
+
+.block-one-text {
+    margin-bottom: 20px;
+}
+
+.block-one p,
+.block-five p {
+    font-size: 16px;
+    letter-spacing: normal;
+    margin-bottom: 0;
+}
+
+.home-list,
+.resources-list,
+.solutions-list {
+    list-style: none;
+}
+
+.input {
+    background-color: rgb(54, 52, 52);
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.2em;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+
+
+
+
+
+.subscribe {
+    width: 120px;
+    padding: 10px;
+    background-color: #5330C9;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+@media only screen and (min-width:766px) and (max-width:1024px) {
+
+    .element-section {
+        justify-content: flex-end;
+    }
+
+    .element-section a {
+
+        display: block;
+
+    }
+
+    .image-one {
+        display: block;
+    }
+
+    .image-one img {
+        width: 100%;
+    }
+
+    .image-two {
+        display: none;
+    }
+    .section-head-2 ,.hidden-1{
+        display: block;
+    
+
+    }
+    .section-head-3 a{
+        display: inline;
+    }
+    .talk{
+        display: none;
+    }
+    
+
+    .section-head-4 .des-1 {
+        display: none;
+    }
+
+    .section-head-4 .des-2 {
+        display: block;
+    }
+
+    .four-two {
+        flex-direction: row;
+    }
+
+    .four-two-image {
+        width: 60%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four-two-description {
+        width: 40%;
+        padding-top: 50px;
+
+    }
+    .learn-button{
+      
+        text-align:start;
+    }
+
+
+
+    .signup-block {
+        flex-direction: row;
+    }
+
+    .block-one p {
+        font-size: 21px;
+    }
+
+}
+
+
+
+@media only screen and (min-width:1025px) {
+
+    .element-section {
+        justify-content: flex-end;
+    }
+
+    .element-section a {
+
+        display: block;
+
+
+    }
+
+    .element-section .nav-bar {
+        display: none;
+    }
+
+    .menu-list {
+        display: flex;
+        list-style: none;
+        margin-left: 120px;
+    }
+
+    .menu-list .menu-item {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .image-one {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-one img {
+        width: 100%;
+    }
+
+    .image-two {
+        display: none;
+    }
+
+    .section-head-2,.hidden-1{
+        display: block;
+    
+    }
+    .section-head-4 .des-1 {
+        display: none;
+    }
+    .section-head-3 a{
+        display: inline;
+    }
+    .talk{
+        display: none;
+    }
+
+    .section-head-4 .des-2 {
+        display: block;
+    }
+
+    .four-two {
+        flex-direction: row;
+    }
+
+    .four-two-image {
+        width: 60%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four-two-description {
+        width: 40%;
+        padding-top: 50px;
+
+    }
+    .learn-button{
+      
+        text-align:start;
+    }
+
+
+
+    .signup-block {
+        flex-direction: row;
+    }
+
+    .signup-demo {
+
+        margin: 0 auto;
+    }
+
+    .block-one,
+    .block-two {
+        width: 24%;
+    }
+
+    .block-three,
+    .block-four,
+    .block-five {
+        width: 17%;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot-content {
+        max-width: 1024px;
+    }
+
+    .block-one p {
+        font-size: 21px;
+    }
+
+}
